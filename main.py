@@ -1,5 +1,5 @@
 from db.session import db, connection
-from db.models.book import book as book_tab
+from db.session import book as book_tab
 from schemas.book import Book
 import json
 
